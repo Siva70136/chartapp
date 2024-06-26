@@ -71,7 +71,7 @@ const ChartComponent = ({ timeframe }) => {
                     <XAxis dataKey="timestamp" />
                     <YAxis />
                     <Tooltip />
-                    <Line type="monotone" dataKey="value" stroke="#8884d8" className='line'/>
+                    <Line type="monotone" dataKey="value" stroke="#8884d8" />
                 </LineChart>
             </ResponsiveContainer>
         </div>

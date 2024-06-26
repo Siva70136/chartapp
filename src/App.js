@@ -4,21 +4,15 @@ import './App.css'
 
 const App = () => {
   const [timeframe, setTimeframe] = useState('daily');
-
-  const handleTimeframeChange = (newTimeframe) => {
-    setTimeframe(newTimeframe);
-  };
-
   return (
-    <div>
+    <div className='chart-app-container'>
       <div className='app-container'>
         <h1>Charting App</h1>
         <div className='timeframe-container'>
-          <button onClick={() => handleTimeframeChange('daily')}>Daily</button>
-          <button onClick={() => handleTimeframeChange('weekly')}>Weekly</button>
-          <button onClick={() => handleTimeframeChange('monthly')}>Monthly</button>
+          <button onClick={() => setTimeframe('daily')}>Daily</button>
+          <button onClick={() => setTimeframe('weekly')}>Weekly</button>
+          <button onClick={() => setTimeframe('monthly')}>Monthly</button>
         </div>
-
       </div>
       <ChartComponent timeframe={timeframe} />
     </div>
