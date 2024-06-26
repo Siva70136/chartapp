@@ -19,7 +19,7 @@
     ```
 
 ## Deployment
-The application is deployed at [Your Deployment Link](https://chartapp-two.vercel.app).
+The application is deployed at [Hosted Link](https://chartapp-two.vercel.app).
 
 ## Features
 - Timeframe breakdown (daily, weekly, monthly)
