@@ -1,0 +1,15 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.export{
+    width: 100px;
+    margin-top: 20px;
+    align-self: center;
+    margin-bottom: 20px;
+}
+.linechart{
+
+    margin:0px auto;
+}
